@@ -1,4 +1,4 @@
- a Rectangle subclass Square."""
+"""A Rectangle subclass Square."""
 Rectangle = __import__('9-rectangle').Rectangle
 
 
