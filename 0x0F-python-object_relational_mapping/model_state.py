@@ -5,8 +5,8 @@ Importing the modules and the declarative_base
 from sqlalchemy import Column, Integer, String, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 
-metadata = MetaData()
-Base = declarative_base(metadata)
+mymetadata = MetaData()
+Base = declarative_base(metadata=mymetadata)
 
 
 class State(Base):
