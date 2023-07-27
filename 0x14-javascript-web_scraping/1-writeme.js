@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const file_sys = require('fs');
-file_sys.writeFile(process.argv[2], process.argv[3], (err) => {
-  if (err) console.error(err);
+const fs = require('fs');
+fs.writeFile(process.argv[2], process.argv[3], error => {
+  if (error) console.error(error);
 });
